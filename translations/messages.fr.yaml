@@ -1,0 +1,5 @@
+general:
+  success: Opération effectuée avec succès !
+  500: Une erreur est survenue merci de réessayer plus tard
+  params: Les paramètres soumis sont incorrects
+  not_found: Pas des donnèes !

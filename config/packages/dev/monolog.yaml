@@ -1,0 +1,16 @@
+monolog:
+  channels: ['drawCards','sortCards']
+  handlers:
+    sortCards:
+      type: rotating_file
+      path: "%kernel.logs_dir%/%kernel.environment%/sortCards.log"
+      level: debug
+      max_files: 60
+      channels: [ "sortCards" ]
+
+    drawCards:
+      type: rotating_file
+      path: "%kernel.logs_dir%/%kernel.environment%/drawCards.log"
+      level: debug
+      max_files: 60
+      channels: [ "drawCards" ]
