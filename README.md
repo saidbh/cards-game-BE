@@ -29,12 +29,12 @@ docker exec -it symfony_app php bin/console doctrine:migrations:migrate
 docker exec -it symfony_app php bin/console doctrine:migrations:migrate --env=test
 
 ---
-### 4. Exécuter le charger les fixtures environnement de développement
+### 4. Charger les fixtures environnement de développement
 
 docker exec -it symfony_app php bin/console doctrine:fixtures:load --no-interaction
 
 ---
-### 5. Exécuter le charger les fixtures environnement de test
+### 5. Charger les fixtures environnement de test
 
 docker exec -it symfony_app php bin/console doctrine:fixtures:load --env=test --no-interaction
 
