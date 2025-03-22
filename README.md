@@ -86,7 +86,7 @@ Fournir une API REST fiable, claire et maintenable pour la gestion de cartes à 
 
 - CardService : logique métier (tirage, tri)
 
-- CardValidator (si présent) : validation métier
+- CardValidator (si le validator est nécessaire) : validation métier
 
 #### ➡️ Ce découpage améliore la lisibilité et la testabilité.
 
