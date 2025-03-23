@@ -73,7 +73,6 @@ final class CardController extends AbstractController
     }
 
     #[Route('/random/cards/sort', name: 'api_app_sort_cards', methods: ['POST'])]
-    #[Route('/random/cards/sort', name: 'api_app_sort_cards', methods: ['POST'])]
     #[OA\RequestBody(
         required: true,
         content: new OA\JsonContent(
